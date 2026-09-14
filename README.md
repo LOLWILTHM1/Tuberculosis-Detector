@@ -1,10 +1,12 @@
-TB COUGH DETECTION - STREAMLIT WEB APP
-=======================================
-A web interface for detecting tuberculosis from cough sounds.
+# TB Cough AI Detector
 
-Installation:
-    pip install streamlit sounddevice scipy
-    -r requirements.txt
+## Dataset Setup
+Create:
+    dataset/TB
+    dataset/NonTB
 
-Usage:
-    streamlit run app.py
+Put spectrogram images accordingly.
+
+## Train
+```bash
+python train.py

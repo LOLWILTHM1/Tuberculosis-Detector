@@ -1,0 +1,34 @@
+# Core Web Framework
+streamlit>=1.28.0
+
+# Audio Processing
+sounddevice>=0.4.6
+scipy>=1.11.0
+librosa>=0.10.0
+audioread>=3.0.0
+
+# Deep Learning
+pytorch >= 1.9.0
+torch>=2.0.0
+torchvision>=0.15.0
+torchvision >= 0.10.0
+torchaudio >= 0.9.0
+
+# Data Processing
+numpy>=1.24.0
+scikit-learn >= 0.24.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# File Handling
+pathlib2>=2.3.7  # For older Python compatibility (optional)
+
+# Additional Audio Codecs (optional but recommended)
+ffmpeg-python>=0.2.0
+seaborn >= 0.11.0
+
+# Note: You may also need to install ffmpeg system-wide:
+# - Ubuntu/Debian: sudo apt-get install ffmpeg
+# - macOS: brew install ffmpeg
+# - Windows: Download from https://ffmpeg.org/download.html
