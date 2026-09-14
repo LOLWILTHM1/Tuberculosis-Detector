@@ -1,4 +1,3 @@
-# Tuberculosis-Detector
 TB COUGH DETECTION - STREAMLIT WEB APP
 =======================================
 A web interface for detecting tuberculosis from cough sounds.
